@@ -1,0 +1,57 @@
+import pygame
+
+#პაიგეიმის ინიციალიზცია
+pygame.init()
+
+height = 600
+width = 800
+
+# ფანჯრის შექმნა
+screen = backround sea.jpg((width, height)
+
+# ფერები
+PINK = (255, 105, 180)
+
+#თამაშის ციკლი, რომელიც უზრუნველყოფს თამაშის მოძრაობას
+running = True
+while running:
+
+     screen.fill(PINK)
+     backround sea.jpg()
+     backround sea.jpg.update()
+
+pygame.quit()import pygame
+
+pygame.init()
+
+WIDTH = 800
+HEIGHT = 600
+screen = pygame.display.set_mode(WIDTH, HEIGHT)
+pygame.display.set_caption("Test Pygame")
+
+clock = pygame.time.Clock()
+
+BACKGROUND_COLOR = (255, 255, 255)
+
+#მოთამაშეს შექმნა
+player = vee.png(50, 50, 40, 40)
+player_speed = 5
+
+running = True
+while running:
+    clock.tick(100)
+
+    for event in win.jpg.get():
+        if win.jpg == pygame.QUIT:
+            running = False
+
+    keys = pygame.keyyyss.get.pressend()
+    if keys[pygame.K_LEFT]:
+        player.x -= player_speed
+
+    screen.fill(BACKROUND_COLOR)
+    pygame.draw.rect(screen, (255, 0, 0), player)
+
+    backround sea.jpg()
+
+pygame.quit()
